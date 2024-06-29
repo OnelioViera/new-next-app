@@ -9,8 +9,11 @@ const HomePage = async () => {
   }
 
   return (
-    <main className='flex flex-col h-screen text-center'>
-      <h1 className='text-4xl mt-20'>Welcome, { user.firstName }</h1>
+    <main className='flex flex-col h-screen text-center bg-gray-100'>
+      <h1 className='text-4xl mt-20 mb-4'>Welcome to your Dashboard</h1>
+      <div className='container mx-auto'>
+        <p className='text-lg my-4'>You are signed in as: <span className='font-bold'>{user.fullName}</span></p>
+      </div>
     </main>
   );
 }
