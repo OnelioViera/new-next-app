@@ -22,7 +22,7 @@ const SignIn = () => {
           <SignInCard />
         </div>
         <div className="grid lg:grid-cols-4 gap-4 pb-10">
-          <p className="text-white font-semibold text-lg lg:text-2xl lg:mt-4">Title Description</p>
+          <p className="text-white font-semibold text-lg lg:text-2xl lg:mt-4">Description Title</p>
           <div className="lg:col-span-8 text-sm lg:text-lg text-white">
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis quisquam ullam a, numquam magnam, quibusdam earum optio similique mollitia nisi aliquid quas dignissimos consequuntur minus necessitatibus, nemo expedita voluptatibus ad.</p>
             <br />
