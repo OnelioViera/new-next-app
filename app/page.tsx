@@ -1,9 +1,18 @@
-import Image from "next/image";
+import { currentUser } from '@clerk/nextjs/server';
+import SignIn from '@/components/SignIn';
 
-export default function Home() {
+const HomePage = async () => {
+  const user = await currentUser();
+
+  if (!user) {
+    return <SignIn />;
+  }
+
   return (
-    <div>
-      <h1>Home</h1>
-    </div>
+    <main className='flex flex-col h-screen text-center'>
+      <h1 className='text-4xl mt-20'>Welcome, { user.firstName }</h1>
+    </main>
   );
 }
+
+export default HomePage;
