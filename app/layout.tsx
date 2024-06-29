@@ -21,13 +21,11 @@ export default function RootLayout({
     <ClerkProvider>
       <html lang='en'>
         <body className={roboto.className}>
-        <div className="flex flex-col h-screen">
           <Header />
           <main>
             {children}
           </main>
             <Footer />
-        </div>
         </body>
       </html>
     </ClerkProvider>
