@@ -21,11 +21,13 @@ const SignIn = () => {
           <SignInCard />
           <SignInCard />
         </div>
-        <div className="grid grid-cols-6 gap-6 pb-10">
-          <div className="col-span-5 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis atque error fugit quos perferendis mollitia, hic aperiam quam facilis tenetur harum cum modi enim, animi quidem assumenda corporis? Porro, at.
+        <div className="grid grid-cols-4 gap-4 pb-10">
+          <p className="text-white font-semibold text-2xl mt-10">Title Description</p>
+          <div className="col-span-5 text-white">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis quisquam ullam a, numquam magnam, quibusdam earum optio similique mollitia nisi aliquid quas dignissimos consequuntur minus necessitatibus, nemo expedita voluptatibus ad.</p>
             <br />
-            <br />
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis quisquam ullam a, numquam magnam, quibusdam earum optio similique mollitia nisi aliquid quas dignissimos consequuntur minus necessitatibus, nemo expedita voluptatibus ad.</p><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis quisquam ullam a, numquam magnam, quibusdam earum optio similique mollitia nisi aliquid quas dignissimos consequuntur minus necessitatibus, nemo expedita voluptatibus ad.</p><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis quisquam ullam a, numquam magnam, quibusdam earum optio similique mollitia nisi aliquid quas dignissimos consequuntur minus necessitatibus, nemo expedita voluptatibus ad.</p><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis quisquam ullam a, numquam magnam, quibusdam earum optio similique mollitia nisi aliquid quas dignissimos consequuntur minus necessitatibus, nemo expedita voluptatibus ad.</p><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis quisquam ullam a, numquam magnam, quibusdam earum optio similique mollitia nisi aliquid quas dignissimos consequuntur minus necessitatibus, nemo expedita voluptatibus ad.</p><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis quisquam ullam a, numquam magnam, quibusdam earum optio similique mollitia nisi aliquid quas dignissimos consequuntur minus necessitatibus, nemo expedita voluptatibus ad.</p><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis quisquam ullam a, numquam magnam, quibusdam earum optio similique mollitia nisi aliquid quas dignissimos consequuntur minus necessitatibus, nemo expedita voluptatibus ad.</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis quisquam ullam a, numquam magnam, quibusdam earum optio similique mollitia nisi aliquid quas dignissimos consequuntur minus necessitatibus, nemo expedita voluptatibus ad.</p><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis quisquam ullam a, numquam magnam, quibusdam earum optio similique mollitia nisi aliquid quas dignissimos consequuntur minus necessitatibus, nemo expedita voluptatibus ad.
+            </p>
           </div>
           <div className="text-white text-center">
             <ul>
